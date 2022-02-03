@@ -1,10 +1,10 @@
 const { ethers } = require('ethers')
 
-const provider = new ethers.providers.JsonRpcProvider("")
+const provider = new ethers.providers.JsonRpcProvider("0x26ED6F806B67aAa6b83846ecb111c098a2302cA1")
 
-const addressReceiver = ''
+const addressReceiver = '0x5Cb98CcbFb2086Ec928F1137F5c2604406F8B283'
 
-const privateKeys = [""]
+const privateKeys = ["8c5478e5731c22f173b2e8f127bacef4cc362434ad2fd53069081f8facb888db"]
 
 
 const bot = async =>{
